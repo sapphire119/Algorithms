@@ -40,11 +40,11 @@
             {
                 if (num % i == 0)
                 {
-                    return false;
+                    return true;
                 }
                 i++;
             }
-            return true;
+            return false;   
         }
 
         private static int[] GetPrimes(long input)
@@ -63,7 +63,7 @@
 
         private static int SetPrime(int element)
         {
-            while (!IsPrime(element)) element++;
+            while (!IsPrime(element) || element % 2 == 0) element++;
             return element;
         }
     }
