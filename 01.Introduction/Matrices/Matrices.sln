@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.SpiralMatrix", "p02.SpiralMatrix\p02.SpiralMatrix.csproj", "{2C337F9E-FA53-4CA0-B4F5-A35D027E334E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C337F9E-FA53-4CA0-B4F5-A35D027E334E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C337F9E-FA53-4CA0-B4F5-A35D027E334E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C337F9E-FA53-4CA0-B4F5-A35D027E334E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C337F9E-FA53-4CA0-B4F5-A35D027E334E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94FC3A37-7C06-40AA-9D4D-F754ECB08D38}
+	EndGlobalSection
+EndGlobal
