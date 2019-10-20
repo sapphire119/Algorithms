@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01.Pascal", "p01.Pascal\p01.Pascal.csproj", "{C549845C-0583-4A94-91A6-00DA5348FB0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.PascalWithFactorization", "p02.PascalWithFactorization\p02.PascalWithFactorization.csproj", "{E6E12C61-45BD-42AF-98AD-E76C1B5A2F85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C549845C-0583-4A94-91A6-00DA5348FB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C549845C-0583-4A94-91A6-00DA5348FB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C549845C-0583-4A94-91A6-00DA5348FB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C549845C-0583-4A94-91A6-00DA5348FB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E12C61-45BD-42AF-98AD-E76C1B5A2F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E12C61-45BD-42AF-98AD-E76C1B5A2F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E12C61-45BD-42AF-98AD-E76C1B5A2F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E12C61-45BD-42AF-98AD-E76C1B5A2F85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {291791ED-1D31-4A34-98AF-D0A1D5DD2EBD}
+	EndGlobalSection
+EndGlobal
