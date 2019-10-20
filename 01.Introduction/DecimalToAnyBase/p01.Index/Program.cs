@@ -2,43 +2,48 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Globalization;
 
     public class Program
     {
         public static void Main()
         {
-            var input = 3742.2163932;
-            var @base = 16;
-
-            //E9E.37658B7513
-            var result = new List<char>();
-            if (input < 0)
+            string input;
+            while ((input = Console.ReadLine()) != "END")
             {
-                input = -input;
-                result.Add('-');
-            }
+                var number = double.Parse(input, CultureInfo.InvariantCulture);
+                var @base = int.Parse(Console.ReadLine());
 
-            var numbWholePart = GetWholeNumbPart((int)Math.Truncate(input), @base);
-            var decimalPart = GetDecimaPart(Math.Abs(Math.Truncate(input) - input), @base, 10);
+                //E9E.37658B7513
+                var result = new List<char>();
+                if (number < 0)
+                {
+                    number = -number;
+                    result.Add('-');
+                }
 
-            if (numbWholePart.Count > 0 && decimalPart.Count > 0)
-            {
-                result.AddRange(numbWholePart);
-                result.Add('.');
-                result.AddRange(decimalPart);
-            }
-            else if(numbWholePart.Count > 0 && decimalPart.Count < 1)
-            {
-                result.AddRange(numbWholePart);
-            }
-            else if (numbWholePart.Count < 0 && decimalPart.Count > 0)
-            {
-                result.Add('0');
-                result.Add('.');
-                result.AddRange(decimalPart);
-            }
+                var numbWholePart = GetWholeNumbPart((int)Math.Truncate(number), @base);
+                var decimalPart = GetDecimaPart(Math.Abs(Math.Truncate(number) - number), @base, 10);
 
-            Console.WriteLine($"Resulting number is: {string.Join("", result)}");
+                if (numbWholePart.Count > 0 && decimalPart.Count > 0)
+                {
+                    result.AddRange(numbWholePart);
+                    result.Add('.');
+                    result.AddRange(decimalPart);
+                }
+                else if (numbWholePart.Count > 0 && decimalPart.Count < 1)
+                {
+                    result.AddRange(numbWholePart);
+                }
+                else if (numbWholePart.Count < 1 && decimalPart.Count > 0)
+                {
+                    result.Add('0');
+                    result.Add('.');
+                    result.AddRange(decimalPart);
+                }
+
+                Console.WriteLine($"Resulting number is: {string.Join("", result)} in base ({@base})");
+            }
             //var test = GetDecimaPart(0.125, 2, 10);
         }
 
