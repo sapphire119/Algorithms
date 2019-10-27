@@ -5,11 +5,19 @@ VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01.Demo", "p01.Demo\p01.Demo.csproj", "{5C494994-739D-4E58-B165-8E1662A42D7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02.BInomialCoefficientWithFactorization", "p02.BInomialCoefficientWithFactorization\p02.BInomialCoefficientWithFactorization.csproj", "{18B370C4-16F8-48C5-9CE9-777012004A41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02.BInomialCoefficientWithFactorization", "p02.BInomialCoefficientWithFactorization\p02.BInomialCoefficientWithFactorization.csproj", "{18B370C4-16F8-48C5-9CE9-777012004A41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03.BinomialCoefficient", "p03.BinomialCoefficient\p03.BinomialCoefficient.csproj", "{67CA2D24-2C5E-4CED-8CBE-8265502D78C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03.BinomialCoefficient", "p03.BinomialCoefficient\p03.BinomialCoefficient.csproj", "{67CA2D24-2C5E-4CED-8CBE-8265502D78C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p04.PerfectNumber", "p04.PerfectNumber\p04.PerfectNumber.csproj", "{8949876E-6515-4140-9C86-B26F420B7EEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p04.PerfectNumber", "p04.PerfectNumber\p04.PerfectNumber.csproj", "{8949876E-6515-4140-9C86-B26F420B7EEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p05.HornerFormula", "p05.HornerFormula\p05.HornerFormula.csproj", "{3063CC5D-5305-4D1C-A00B-B34F9CAE52B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p06.Decimal2Roman", "p06.Roman2Decimal\p06.Decimal2Roman.csproj", "{A1CFB919-2A81-4363-9B00-D773A9E8C1C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p07.Roman2Decimal", "p07.Roman2Decimal\p07.Roman2Decimal.csproj", "{6B046846-290C-44B3-9750-6CD00F8EA76C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p08.RomanSequence", "p08.RomanSequence\p08.RomanSequence.csproj", "{E4D7BC62-4F91-4EEB-B412-DA784471AD66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{8949876E-6515-4140-9C86-B26F420B7EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8949876E-6515-4140-9C86-B26F420B7EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8949876E-6515-4140-9C86-B26F420B7EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3063CC5D-5305-4D1C-A00B-B34F9CAE52B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3063CC5D-5305-4D1C-A00B-B34F9CAE52B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3063CC5D-5305-4D1C-A00B-B34F9CAE52B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3063CC5D-5305-4D1C-A00B-B34F9CAE52B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CFB919-2A81-4363-9B00-D773A9E8C1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CFB919-2A81-4363-9B00-D773A9E8C1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CFB919-2A81-4363-9B00-D773A9E8C1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CFB919-2A81-4363-9B00-D773A9E8C1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B046846-290C-44B3-9750-6CD00F8EA76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B046846-290C-44B3-9750-6CD00F8EA76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B046846-290C-44B3-9750-6CD00F8EA76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B046846-290C-44B3-9750-6CD00F8EA76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D7BC62-4F91-4EEB-B412-DA784471AD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D7BC62-4F91-4EEB-B412-DA784471AD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D7BC62-4F91-4EEB-B412-DA784471AD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D7BC62-4F91-4EEB-B412-DA784471AD66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
